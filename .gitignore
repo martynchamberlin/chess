@@ -1,0 +1,4 @@
+*.DS_Store
+offline
+node_modules
+.idea
