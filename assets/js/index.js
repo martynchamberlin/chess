@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import store from './store';
 import App from './app.vue';
 
 export default new Vue({
@@ -7,4 +8,5 @@ export default new Vue({
     App,
   },
   render: h => h(App),
+  store
 });

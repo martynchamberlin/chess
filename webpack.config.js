@@ -19,7 +19,7 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   entry: {
     main: [
-      './src/index.js',
+      './assets/js/index.js',
       'webpack-dev-server/client?/sockjs-node/',
       'webpack/hot/dev-server'
     ]
